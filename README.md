@@ -1,4 +1,6 @@
-Importants Commands
+                                        
+                                                        Important Commands
+
 
 docker history httpd. —show the history   
 
@@ -20,11 +22,12 @@ docker run —name. specifies a name for the container
 
 docker run httpd echo “Hello World!”    in this case new conatiner will be create 
 
-docker run —name my-container httpd echo “Hello World!” | —name option for give u to given                             name to conatienr 
+docker run —name my-container httpd echo “Hello World!” | —name option for give u to given name to conatienr 
 
-docker run -e MY_VAR=value httpd env. | the env is execute to display the list of environment                                                   variable in the conatiner, here MY_VAR is value name it can be anything
+docker run -e MY_VAR=value httpd env. | the env is execute to display the list of environmentvariable in the conatiner, 
+                                   here MY_VAR is value name it can be anything
 
-docker run -it -e MY_NAME=Abhishek ubuntu bash. it will open the container and you can check                                                                           the env variable inside it
+docker run -it -e MY_NAME=Abhishek ubuntu bash |. it will open the container and you can check                                                                                                                   the env variable inside it
 
 docker run -e APP_ENV=production -e APP_VERSION=1.0 nginx
 
