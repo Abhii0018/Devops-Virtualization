@@ -87,3 +87,15 @@ Deploy a MySQL database server using Docker. Configure the container with enviro
 
 
 
+                                 Task 3:-
+  Run an Ubuntu container using Docker, pass an environment variable COLLEGE=CSE, verify it inside the container, and observe what happens after stopping the container.
+  
+<img width="1004" height="386" alt="Screenshot 2026-04-15 at 5 25 59 PM" src="https://github.com/user-attachments/assets/55b66104-50ea-47b9-84da-0af48cd7ff58" />
+
+After resteart----------
+
+
+<img width="844" height="98" alt="Screenshot 2026-04-15 at 5 28 16 PM" src="https://github.com/user-attachments/assets/a499ae7b-9474-483f-94f8-9100dc76a1bc" />
+
+
+
