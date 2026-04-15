@@ -70,4 +70,20 @@ Access the Apache web server using a browser.
 
 <img width="1033" height="339" alt="Screenshot 2026-04-15 at 5 02 51 PM" src="https://github.com/user-attachments/assets/6867aa1e-7b20-47f7-8c64-6fc290cf90f0" />
 
+                       Task  2:
+                       
+Deploy a MySQL database server using Docker. Configure the container with environment variables to set the root password, create a database named college, and create a user with credentials. Run the container in detached mode and verify that the database is running successfully.
+
+<img width="998" height="389" alt="Screenshot 2026-04-15 at 5 18 57 PM" src="https://github.com/user-attachments/assets/4f47c16f-9ac5-439a-9c90-d54ad605d17d" />
+
+
+
+
+<img width="936" height="288" alt="Screenshot 2026-04-15 at 5 20 26 PM" src="https://github.com/user-attachments/assets/233de7c7-51aa-44ea-940b-7eb3dc7c0e7f" />
+
+
+
+<img width="886" height="369" alt="Screenshot 2026-04-15 at 5 20 49 PM" src="https://github.com/user-attachments/assets/12330977-4ad2-493b-b75b-58c2e434e99b" />
+
+
 
