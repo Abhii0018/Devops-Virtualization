@@ -56,3 +56,18 @@ docker kill <container_id/name>.  | kill a container(force stop)
 docker rm <container_id/name> | Remove a container
 
 docker container prune. | Remove all stopped containers
+
+                                TASK 1:-
+You are a DevOps trainee and need to deploy the Apache HTTP Server (httpd) using Docker for testing a static website. Pull the Apache server image from Docker Hub, create a container named apache-web, and run it in detached mode. Map port 8081 on the host machine to port 80 inside the container so that the website can be accessed through a browser.
+Tasks:
+Pull the Apache (httpd) Docker image.
+Verify that the image is successfully downloaded.
+Run the container with the specified name and port mapping.
+Check the list of running containers.
+Access the Apache web server using a browser.
+<img width="445" height="157" alt="Screenshot 2026-04-15 at 5 10 55 PM" src="https://github.com/user-attachments/assets/208bf7aa-a2bd-411c-b1e7-767bf15fca99" />
+
+
+<img width="1033" height="339" alt="Screenshot 2026-04-15 at 5 02 51 PM" src="https://github.com/user-attachments/assets/6867aa1e-7b20-47f7-8c64-6fc290cf90f0" />
+
+
