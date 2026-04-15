@@ -122,6 +122,25 @@ Properly stop and remove the container after testing.
 
 <img width="1034" height="383" alt="Screenshot 2026-04-15 at 5 35 35 PM" src="https://github.com/user-attachments/assets/dd5bd2db-84da-4a49-8aeb-fb8f53aeb021" />
 
+                                                        Task 6:-
+                                                        
+  How would you use the docker run command with -it, -e, -v, and --name to:
+•	Set an environment variable APP_ENV=production.	
+•	Bind a local directory /app/data to /data inside the container.	
+•	Name the container my_app.	
+
+
+<img width="684" height="230" alt="Screenshot 2026-04-15 at 5 45 35 PM" src="https://github.com/user-attachments/assets/2f4c99a5-327e-490e-8dbb-95f6766ddcf1" />
+
+
+In another terminal:---
+
+
+<img width="815" height="184" alt="Screenshot 2026-04-15 at 5 45 48 PM" src="https://github.com/user-attachments/assets/c37e6abe-8232-4b30-8993-3e288141b816" />
+
+
+	
+
 
 
 
