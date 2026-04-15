@@ -138,6 +138,22 @@ In another terminal:---
 
 <img width="815" height="184" alt="Screenshot 2026-04-15 at 5 45 48 PM" src="https://github.com/user-attachments/assets/c37e6abe-8232-4b30-8993-3e288141b816" />
 
+Important Container command:---------------
+
+Unpause a paused container 
+docker unpause <container_id/name>
+
+Kill a container (force stop) 
+docker kill <container_id/name>
+
+Remove a container 
+docker rm <container_id/name>
+
+Remove all stopped containers 
+docker container prune
+
+
+
 
 	
 
