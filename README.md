@@ -99,3 +99,29 @@ After resteart----------
 
 
 
+                                     Task 4:-
+Run a Docker container named DB-app using the MongoDB image and expose it so that it can be accessed from the host system.
+
+
+<img width="1024" height="392" alt="Screenshot 2026-04-15 at 5 33 06 PM" src="https://github.com/user-attachments/assets/3e455c35-1bc6-49e9-a80a-0849bde46d61" />
+
+
+                              Task 5:-
+You are a DevOps engineer in a startup company. The development team asks you to quickly deploy a simple web page that displays the message:
+
+Use the official httpd Docker image.
+Run the container so it is accessible on port 8080 of the host machine.
+Create or update an HTML file inside the container to display the required message.
+Verify the output using a command-line tool.
+Properly stop and remove the container after testing.
+
+
+<img width="528" height="227" alt="Screenshot 2026-04-15 at 5 36 08 PM" src="https://github.com/user-attachments/assets/158b5153-f42e-43e0-b7ae-a6956317e918" />
+
+
+
+<img width="1034" height="383" alt="Screenshot 2026-04-15 at 5 35 35 PM" src="https://github.com/user-attachments/assets/dd5bd2db-84da-4a49-8aeb-fb8f53aeb021" />
+
+
+
+
