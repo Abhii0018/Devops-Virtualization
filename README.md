@@ -159,9 +159,28 @@ You need to start a new container using the nginx image while setting an environ
 <img width="591" height="186" alt="Screenshot 2026-04-15 at 5 55 10 PM" src="https://github.com/user-attachments/assets/4f36a205-2790-4c56-b9c5-bd70a26617e6" />
 
 
+                                  Task 8:-------
 
-	
+								  
+You are a DevOps engineer at a university. The web development team has built a simple HTML-based portal and wants it deployed using Docker.
+Use the official httpd image.
+Name the container college_portal.
+Run it in detached mode.
+Expose container port 80 to host port 8080.
+Set environment variable ENV=production.
+Attach a Docker volume named portaldata to store website files.
+Modify the index.html file inside the container.
+Verify the output in the browser.
+Check logs if the page is not loading.
+Stop and remove the container.
+Remove the volume and image after testing.	
 
+
+
+<img width="1065" height="394" alt="Screenshot 2026-04-15 at 6 01 10 PM" src="https://github.com/user-attachments/assets/96fb42e3-e15a-4c17-9815-90de90475928" />
+
+
+<img width="544" height="181" alt="Screenshot 2026-04-15 at 6 01 30 PM" src="https://github.com/user-attachments/assets/6dfc2439-3153-4484-861e-327f82f028cd" />
 
 
 
