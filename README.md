@@ -152,6 +152,11 @@ docker rm <container_id/name>
 Remove all stopped containers 
 docker container prune
 
+                                 Task 7:--
+You need to start a new container using the nginx image while setting an environment variable ENV_MODE=production. Write the docker run command to achieve this.
+
+
+<img width="591" height="186" alt="Screenshot 2026-04-15 at 5 55 10 PM" src="https://github.com/user-attachments/assets/4f36a205-2790-4c56-b9c5-bd70a26617e6" />
 
 
 
