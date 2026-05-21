@@ -183,4 +183,408 @@ Remove the volume and image after testing.
 <img width="544" height="181" alt="Screenshot 2026-04-15 at 6 01 30 PM" src="https://github.com/user-attachments/assets/6dfc2439-3153-4484-861e-327f82f028cd" />
 
 
+																		   Unit-3
+
+Monolithic vs Microservices
+Introduction
+Software architecture has evolved significantly over time:
+
+1980s–1990s → Monolithic applications on physical servers
+2000s → N-tier applications with virtualization
+Present → Microservices running in containers using Docker and Kubernetes
+Microservices architecture became popular because modern applications require scalability, flexibility, and faster deployment.
+
+Monolithic Architecture
+A monolithic application is built as a single unified application where all components are tightly coupled.
+
+It mainly contains:
+
+User Interface (UI)
+Business Logic
+Database Access Layer
+All modules are developed and deployed together.
+
+Example of Monolithic Application
+An E-commerce application where:
+
+Frontend
+Backend
+Authentication
+Payment
+Database
+are combined into one large application.
+
+Advantages of Monolithic Architecture
+Simple deployment
+Easy debugging and testing
+Faster internal communication
+Suitable for small applications
+Disadvantages of Monolithic Architecture
+Difficult to scale specific modules
+Large codebase becomes hard to manage
+Technology upgrades become difficult
+One failure can affect entire application
+Slower development for large teams
+Microservices Architecture
+Microservices architecture divides an application into multiple small independent services.
+
+Each service:
+
+Performs a specific business task
+Runs independently
+Communicates using APIs
+Can use its own database
+Example of Microservices
+An online shopping platform may contain:
+
+User Service
+Product Service
+Payment Service
+Order Service
+Recommendation Service
+Each service works independently.
+
+Advantages of Microservices
+Advantage	Description
+Scalability	Services can scale independently
+Independent Deployment	Update one service without affecting others
+Fault Isolation	Failure in one service does not stop entire system
+Technology Flexibility	Different technologies can be used
+Faster Development	Teams can work independently
+Easier Maintenance	Small services are easier to manage
+Disadvantages of Microservices
+Complex architecture
+Difficult service communication
+More deployment management
+Monitoring becomes challenging
+Requires container orchestration tools
+Monolithic vs Microservices
+Feature	Monolithic	Microservices
+Architecture	Single application	Multiple independent services
+Scalability	Entire app scaled together	Individual services scaled
+Deployment	Single deployment	Independent deployment
+Fault Isolation	Low	High
+Flexibility	Less flexible	Highly flexible
+Maintenance	Difficult for large apps	Easier due to smaller services
+Technology Stack	Usually single stack	Multiple stacks possible
+Role of Containers in Microservices
+Microservices are commonly deployed using containers such as Docker.
+
+Benefits:
+
+Lightweight deployment
+Faster startup time
+Isolation between services
+Better resource utilization
+Easy scalability
+Kubernetes is often used to manage multiple containers.
+
+Real-World Examples
+Netflix
+Amazon
+Flipkart
+Swiggy
+Zomato
+These platforms use microservices to handle millions of users efficiently.
+
+Important Viva Questions
+1. What is a monolithic application?
+A monolithic application is a single unified application where all components are tightly coupled and deployed together.
+
+2. What are microservices?
+Microservices are small independent services that work together to form an application.
+
+3. Why are microservices preferred over monolithic architecture?
+Because they provide scalability, flexibility, independent deployment, and fault isolation.
+
+4. What is fault isolation in microservices?
+Failure of one service does not affect the complete application.
+
+5. Why are containers used in microservices?
+Containers provide lightweight, isolated, and portable environments for running services.
+
+Conclusion
+Monolithic architecture is simple and suitable for small applications, while microservices architecture is better for large-scale modern applications requiring scalability, flexibility, and faster deployment.
+
+                                              Container
+
+Containers
+Introduction
+Containers are lightweight virtualization technologies that allow multiple isolated applications to run on a single operating system.
+
+Containers package:
+
+Application code
+Dependencies
+Libraries
+Runtime environment
+This makes applications portable and consistent across different systems.
+
+What is a Container?
+A container is an isolated environment that shares the host operating system kernel while running applications independently.
+
+Containers are widely used in DevOps and cloud computing because they are:
+
+Lightweight
+Fast
+Portable
+Scalable
+Features of Containers
+OS-level virtualization
+Lightweight compared to Virtual Machines
+Fast startup time
+Efficient resource utilization
+Portable across environments
+Isolation between applications
+Containers vs Virtual Machines
+Feature	Containers	Virtual Machines
+Virtualization Type	OS-level virtualization	Hardware-level virtualization
+Size	Lightweight	Heavy
+Startup Time	Seconds	Minutes
+Resource Usage	Low	High
+OS Requirement	Shares host kernel	Separate guest OS
+Performance	Faster	Slower compared to containers
+Working of Containers
+Containers use:
+
+Namespaces → for process isolation
+Control Groups (cgroups) → for resource limits
+Container Runtime → to run containers
+The host operating system kernel is shared among all containers.
+
+Advantages of Containers
+Faster deployment
+Better resource utilization
+Easy scalability
+Consistent development environment
+Simplified application deployment
+High portability
+Containers and Microservices
+Containers are commonly used to deploy microservices.
+
+Each microservice can run inside its own container with:
+
+Required dependencies
+Runtime environment
+Libraries
+Benefits:
+
+Independent deployment
+Fault isolation
+Better scalability
+Faster updates
+Docker and Kubernetes
+Docker
+Docker is a containerization platform used to:
+
+Build containers
+Run containers
+Manage container images
+Kubernetes
+Kubernetes is a container orchestration tool used to:
+
+Manage multiple containers
+Auto-scale applications
+Self-heal failed containers
+Handle container networking
+Real-World Uses of Containers
+Containers are widely used in:
+
+Cloud applications
+CI/CD pipelines
+Microservices architecture
+DevOps automation
+Scalable web applications
+Companies using containers:
+
+Netflix
+Amazon
+Google
+Spotify
+Important Viva Questions
+1. What is a container?
+A container is a lightweight isolated environment used to run applications along with their dependencies.
+
+2. Why are containers lightweight?
+Because they share the host operating system kernel instead of running a separate OS.
+
+3. What is the difference between containers and VMs?
+Containers share the host OS kernel while VMs use separate guest operating systems.
+
+4. What is Docker?
+Docker is a platform used for containerization.
+
+5. What is Kubernetes?
+Kubernetes is a container orchestration platform used to manage multiple containers.
+
+6. Why are containers useful in microservices?
+Containers provide portability, scalability, and isolation for microservices deployment.
+
+Conclusion
+Containers provide lightweight, fast, and portable application deployment environments. They are a core technology in modern DevOps and microservices architecture.
+
+
+<img width="697" height="556" alt="Screenshot 2026-05-21 at 12 23 15 PM" src="https://github.com/user-attachments/assets/bba19f63-6ffc-46b8-90c9-358a8c015283" />
+
+# Practical 01 - Docker Compose Basics
+
+# Aim
+
+To understand the basics of Docker Compose and deploy an Nginx container using a docker-compose.yml file.
+
+---
+
+# Problem Statement
+
+Create a Docker Compose configuration file to run an Nginx web server container and verify the deployment using Docker Desktop and browser.
+
+---
+
+# Requirements
+
+- Docker Desktop
+- Docker Compose
+- VS Code
+
+---
+
+# Docker Compose File
+
+```yaml
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+```
+
+---
+
+# Explanation
+
+## services
+Defines all containers used in the application.
+
+---
+
+## web
+Name of the service.
+
+---
+
+## image: nginx
+Pulls official Nginx image from Docker Hub.
+
+---
+
+## ports
+Maps host port to container port.
+
+```text
+8080 → Host Port
+80 → Container Port
+```
+
+---
+
+# Steps Performed
+
+## Step 1: Open Project Folder
+
+Navigate to:
+
+```text
+C:\Users\Lenovo\OneDrive\Desktop\devops2\unit3\03-Docker-Compose-Basics
+```
+
+---
+
+## Step 2: Create docker-compose.yml
+
+Created Docker Compose configuration file.
+
+---
+
+## Step 3: Run Docker Compose
+
+Command used:
+
+```bash
+docker compose up -d
+```
+
+---
+
+## Step 4: Verify Running Container
+
+Command used:
+
+```bash
+docker compose ps
+```
+
+---
+
+## Step 5: Open Browser
+
+Visited:
+
+```text
+http://localhost:8080
+```
+
+Verified Nginx web server output.
+
+---
+
+# Output Screenshots
+
+## 1. Docker Compose File
+
+![Compose File](img2.png)
+
+---
+
+## 2. Docker Compose Up
+
+![Docker Compose Up](img3.png)
+
+---
+
+## 3. Running Containers
+
+![Docker Compose PS](img4.png)
+
+---
+
+## 4. Docker Desktop Running Container
+
+![Docker Desktop](screenshots/img5.png)
+
+---
+
+## 5. Browser Output
+
+![Nginx Output](screenshots/img6.png)
+
+---
+
+# Result
+
+Successfully created and deployed an Nginx container using Docker Compose.
+
+---
+
+# Conclusion
+
+Docker Compose simplifies container deployment and management using a single YAML configuration file.
+
+
+
+
+
+
+
+
+
 
